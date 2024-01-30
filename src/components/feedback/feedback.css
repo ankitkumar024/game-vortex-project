@@ -15,12 +15,12 @@
 .slider {
   justify-content: center;
   margin: 0 10px;
-  height: 30rem;
+  height: 35rem;
 }
 
 .feedback_cards {
   max-width: 100%;
-  height: 400px;
+  height: 470px;
   display: flex !important;
   flex-direction: column !important;
   text-align: center;
