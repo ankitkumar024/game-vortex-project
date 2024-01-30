@@ -1,0 +1,151 @@
+/* Mobile Styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: auto;
+  height: 40px;
+  padding: 16px;
+}
+
+.nav_logo {
+  display: flex;
+  width: auto;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+
+  cursor: pointer;
+}
+.nav_logo img {
+  width: 30px;
+  height: 30px;
+}
+.nav_logo h1 {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav_dekstop_links {
+  display: none;
+}
+
+li {
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+li:hover {
+  color: #3102a1;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #260080 20%,
+    #8a4bbd 51%,
+    #c11ceb 77%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile_menu {
+  position: relative;
+  top: 5px;
+  right: 40px;
+}
+
+.mobile_menu_toggle {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+/* Adjust the position and styles of the dropdown as needed */
+.mobile_menu > div {
+  position: absolute;
+  top: 100%; /* Position the dropdown below the toggle button */
+  left: -100px;
+  display: none; /* Add background color or other styles */
+}
+
+.mobile_menu > div.flex {
+  display: flex;
+}
+
+/* Additional styling for the dropdown menu items */
+.mobile_menu > div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile_menu ul {
+  width: 130px;
+}
+
+.mobile_menu > div ul li {
+  padding: 8px;
+  width: 110px;
+}
+
+.mobile_menu .flex {
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  z-index: 1;
+}
+
+.mobile_menu .hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    justify-content: space-around;
+    width: auto;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+  .nav_dekstop_links {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+  .nav_dekstop_links .li_bag {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .nav_dekstop_links .li_bag .bag_img {
+    display: block;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .nav_dekstop_links {
+    gap: 50px;
+  }
+}

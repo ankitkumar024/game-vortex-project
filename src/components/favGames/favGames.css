@@ -1,0 +1,193 @@
+.fav_games {
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+  height: auto;
+  width: 100%;
+}
+
+.fav_games-content {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.fav_games-content h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 34.29px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110.6%;
+  letter-spacing: 1.372px;
+  text-transform: uppercase;
+}
+
+.fav_games-content p {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.6%;
+  letter-spacing: 0.64px;
+}
+
+.fav_games-carousel {
+  height: auto;
+}
+
+.carousel_icon {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+
+  top: 40px;
+  left: 10.5rem;
+  z-index: 2;
+}
+
+.favCircle {
+  width: 50px;
+  height: 50px;
+}
+
+.favIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: -17px;
+  right: 35px;
+}
+
+.carousel_img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.carousel_img .img-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border: 4px solid rgba(161, 4, 153, 0.863);
+  border-radius: 10px;
+}
+
+.carousel_img .img-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+
+  cursor: grab;
+}
+
+.carousel_img .img-container img:active {
+  cursor: grabbing;
+}
+
+.carousel_text-bg {
+  max-width: 100%;
+  width: 300px;
+  height: 41px;
+  position: relative;
+  z-index: 2;
+  top: -40px;
+  left: 42px;
+}
+
+.carousel_text-bg .text-bg {
+  width: 300px;
+}
+
+.carousel_text-bg h1 {
+  color: #fff;
+  width: fit-content;
+  height: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  top: -36px;
+  left: 60px;
+}
+
+.fav_games-btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.viewAll,
+.playNow {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.playNow {
+  background: linear-gradient(45deg, #06013a 33%, #a264c1 52%, #260038 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.playNow:hover {
+  background: linear-gradient(45deg, #150142, #8624d6, #8f03b1);
+  -webkit-text-fill-color: #fff;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .fav_games {
+    height: 100%;
+  }
+  .fav_games-content h1 {
+    font-size: 50px;
+  }
+  .fav_games-content p {
+    font-size: 20px;
+  }
+
+  .carousel_icon {
+    left: 21rem;
+  }
+
+  .carousel_img .img-container {
+    height: 400px;
+  }
+  .carousel_img .img-container img {
+    height: 400px;
+  }
+
+  .carousel_text-bg {
+    left: 13rem;
+  }
+
+  .viewAll,
+  .playNow {
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .fav_games {
+    max-height: 100%;
+    padding-top: 5rem;
+  }
+  .carousel_icon {
+    left: 48%;
+  }
+  .carousel_img .img-container {
+    width: 72rem;
+    height: 600px;
+  }
+  .carousel_img .img-container img {
+    height: 600px;
+  }
+  .carousel_text-bg {
+    left: 40%;
+  }
+}

@@ -1,0 +1,42 @@
+:root {
+  background: #2d1e6b;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/** TEXT GRADIENT */
+.text-gradient {
+  background: linear-gradient(45deg, #080060 33%, #c471ed 52%, #57007e 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#active {
+  background: linear-gradient(45deg, #150142, #8624d6, #8f03b1);
+  color: #fff;
+}
+
+.btn-border {
+  border: 2px solid;
+  border-radius: 20px;
+  border-left-color: #5c31c1;
+  border-bottom-color: #5c31c1;
+  border-top-color: #6d05c2;
+  border-right-color: #6d05c2;
+  background: transparent;
+
+  -webkit-box-shadow: 0px 5px 15px -1px rgba(117, 4, 117, 1);
+  -moz-box-shadow: 0px 5px 15px -1px rgba(117, 4, 117, 1);
+  box-shadow: 0px 5px 15px -1px rgba(117, 4, 117, 1);
+}
+
+.animation_strip {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.3px);
+  -webkit-backdrop-filter: blur(3.3px);
+}

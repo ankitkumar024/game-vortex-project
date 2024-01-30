@@ -1,0 +1,161 @@
+.feedbacks {
+  max-width: 100%;
+  width: auto;
+  overflow: hidden;
+  padding-top: 4rem;
+}
+
+.feedbacks_container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 350px;
+  height: 100%;
+}
+
+.slider {
+  justify-content: center;
+  margin: 0 10px;
+  height: 30rem;
+}
+
+.feedback_cards {
+  max-width: 100%;
+  height: 370px;
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: center;
+  align-items: center !important;
+  padding-top: 50px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+.cards_para {
+  width: 200px;
+  padding-top: 10px;
+  color: #fff;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+hr {
+  margin: 20px 0;
+  width: 250px;
+  height: 2px;
+  border: none;
+
+  background: linear-gradient(
+    45deg,
+    #fff 1.04%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+}
+
+.feedback_user {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.user_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.user_name h2 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.user_name p {
+  color: #ffffffbf;
+  font-size: 10px;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.verified {
+  width: 45px;
+  height: 15px;
+  padding: 0 30px;
+}
+
+.slick-dots {
+  bottom: 0px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: transparent;
+}
+
+.slick-dots li.slick-active button {
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    rgb(77, 70, 208) 0%,
+    rgba(5, 1, 122, 0.9389005602240896) 32%,
+    rgba(112, 40, 156, 1) 91%
+  );
+}
+
+@media screen and (min-width: 768px) {
+  .feedbacks_container {
+    width: 700px;
+  }
+
+  .slider {
+    height: 26rem;
+  }
+
+  .feedback_cards {
+    height: 320px;
+  }
+
+  .cards_para {
+    width: 500px;
+    font-size: 20px;
+  }
+
+  hr {
+    width: 500px;
+  }
+
+  .feedback_user {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user_name h2 {
+    font-size: 20px;
+  }
+
+  .user_name p {
+    font-size: 12px;
+  }
+
+  .verified {
+    width: 80px;
+    height: 25px;
+    padding-left: 100px;
+  }
+}
