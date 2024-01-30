@@ -5,6 +5,9 @@ import './hero.css'
 const Hero = () => {
   return (
     <section className="hero">
+
+      <div className='blur-bg' id='hero-bg'></div>
+
       <div className='hero_img'>
         <img src={heroImg} alt="" />
       </div>

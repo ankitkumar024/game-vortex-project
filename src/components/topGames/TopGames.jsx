@@ -5,6 +5,7 @@ import { topGames } from '../../constants/index'
 const TopGames = () => {
   return (
     <section className="topGames" id='apps&games'>
+      <div className="blur-bg" id='topGames-blur'></div>
       <h1 className="topGames_header">
         Welcome to the top
       </h1>
@@ -15,6 +16,9 @@ const TopGames = () => {
         <button className='fightGames btn-border'>Fight Games</button>
         <button className='sportsGames btn-border'>Sport Games</button>
       </div>
+
+      <div className="blur-bg" id='topGames-blur1'></div>
+
 
       <div className='topGames_cards'>
         {topGames.map((games) => (
@@ -29,6 +33,9 @@ const TopGames = () => {
           </div>
         ))}
       </div>
+
+      <div className="blur-bg" id='topGames-blur2'></div>
+
 
     </section>
   )

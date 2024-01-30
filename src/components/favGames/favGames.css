@@ -7,6 +7,13 @@
   /* width: 100%; */
 }
 
+#favGames-blur{
+  width: 200px;
+  height: 200px;
+  left: 120px;
+  position: absolute;
+}
+
 .fav_games-content {
   max-width: 600px;
   margin: 0 auto;
@@ -144,6 +151,9 @@
 @media screen and (min-width: 768px) {
   .fav_games {
     height: 100%;
+  }
+  #favGames-blur{
+    left: 18rem;
   }
   .fav_games-content h1 {
     font-size: 50px;

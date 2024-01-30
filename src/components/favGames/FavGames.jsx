@@ -8,6 +8,8 @@ const FavGames = () => {
 
   return (
     <section className="fav_games" id='products'>
+      <div className='blur-bg' id='favGames-blur'></div>
+
       <div className="fav_games-content">
         <h1>Choose your <span className='text-gradient'>favorite</span>  games</h1>
         <p>Offer sneak peeks and previews of the upcoming games, including trailers, screenshots, and information about release.</p>

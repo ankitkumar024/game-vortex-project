@@ -9,6 +9,30 @@
   height: auto;
 }
 
+#topGames-blur{
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  height: 100px;
+}
+
+#topGames-blur1{
+  position: absolute;
+  width: 150px;
+  height: 500px;
+  top: 200rem;
+  left: 0;
+
+}
+
+#topGames-blur2{
+  position: absolute;
+  top: 370rem;
+  width: 300px;
+  height: 200px;
+}
+
+
 .topGames_header {
   max-width: 100%;
   width: 350px;
@@ -137,6 +161,10 @@
     max-width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  #topGames-blur2{
+    top: 250rem;
   }
 }
 

@@ -7,6 +7,12 @@
   flex-shrink: 0;
 }
 
+#vr-blur{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+}
+
 .vrGames-content {
   display: flex;
   padding-top: 25px;

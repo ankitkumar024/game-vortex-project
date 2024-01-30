@@ -7,6 +7,7 @@ const VRgames = () => {
   return (
     <>
       <section className="vrGames">
+        <div className='blur-bg' id='vr-blur'></div>
         <div className="vrGames-content">
           <img src={vrImg} alt="VR" />
 
