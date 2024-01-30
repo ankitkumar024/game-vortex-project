@@ -42,3 +42,7 @@ Install vite project with npm
 ## Demo
 
 https://ankitkumar024.github.io/game-vortex-project/
+
+
+## Screenshot
+![GameVortex - Google Chrome 30-01-2024 14_07_03](https://github.com/ankitkumar024/game-vortex-project/assets/130045281/c2fd66fc-37c9-44ef-bb06-876599c7f0da)
